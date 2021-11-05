@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  display: grid;
+  place-items: center;
+
+  background: rgb(68, 68, 68);
+  background: linear-gradient(
+    90deg,
+    rgba(68, 68, 68, 1) 12%,
+    rgba(85, 85, 85, 1) 100%,
+    rgba(0, 212, 255, 1) 100%,
+    rgba(248, 248, 248, 1) 100%
+  );
+}
+
+#root {
+  background: #ffffff10;
+  background-filter: blur(12px);
+  -webkit-background-filter: blur(12px);
+
+  height: 90vh;
+  width: 90vw;
+}
